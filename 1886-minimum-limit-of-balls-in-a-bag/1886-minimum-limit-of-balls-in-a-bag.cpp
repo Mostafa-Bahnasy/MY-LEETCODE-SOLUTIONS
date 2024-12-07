@@ -11,18 +11,18 @@ public:
         //     ret = ret + left + right;
         //     return ret;
         // };
-        sort(nums.rbegin(),nums.rend());
+        //sort(nums.rbegin(),nums.rend());
         auto check = [&](int mx)->bool{
             int need = 0;
             for(auto&ele:nums){
-                if(ele<=mx)return true;
+                //if(ele<=mx)return true;
                 need+=max(0,((ele+mx-1)/mx)-1);
                 //cout<<need<<"\n";
                 if(need>maxOperations)return false;
             }
             return true;
         };
-        int l = 1, r = nums[0];
+        int l = 1, r = *max_element(nums.begin(),nums.end());
         int ans = r;
         while(l<=r){
             int md = l+r>>1;
