@@ -23,12 +23,11 @@ public:
             return true;
         };
         int l = 1, r = *max_element(nums.begin(),nums.end());
-        int ans = r;
-        while(l<=r){
+        while(l<r){
             int md = l+r>>1;
-            if(check(md))ans = md,r = md-1;
+            if(check(md))r = md;
             else l = md+1;
         }
-        return ans;
+        return r;
     }
 };
