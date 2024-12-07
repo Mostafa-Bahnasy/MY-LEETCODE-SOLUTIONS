@@ -31,11 +31,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## String
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2414-move-pieces-to-obtain-a-string) |
+| [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Hash Table
 |  |
 | ------- |
