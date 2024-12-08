@@ -1,27 +1,21 @@
 class Solution {
 public:
-    int maxTwoEvents(vector<vector<int>>& events) {
-        int n = events.size();
-        vector<tuple<int,int,int>>left(n);
-        int idx = 0;
-        for(auto&v:events){
-            left[idx] = {v[0],v[1],v[2]};
-            idx++;
-        }
+    int maxTwoEvents(vector<vector<int>>& left) {
+        int n = left.size();
+        
         sort(left.begin(),left.end());
         
         int can = 0;
-        multiset<pair<int,int>>open;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> open;
         int ans = 0;
-        for(auto&[l,r,val]:left){
-            while(open.size()&&open.begin()->first<l){
-                can= max(open.begin()->second,can);
-                open.erase(open.begin());
+        for(auto&v:left){
+            //cout<<v[0]<<" "<<v[1]<<" "<<v[2]<<"\n";
+            while(open.size()&&open.top().first<v[0]){
+                can= max(open.top().second,can);
+                open.pop();
             }
-            //int add = 0;
-            //if(can.size())add = *prev(can.end());
-            ans = max(ans,val+can);
-            open.insert({r,val});
+            ans = max(ans,v[2]+can);
+            open.push({v[1],v[2]});
         }
         return ans;
 
