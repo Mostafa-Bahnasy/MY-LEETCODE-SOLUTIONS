@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& v, vector<int>& newInterval) {
+        sort(v.begin(),v.end());
 
         v.insert(v.begin(),newInterval);
         sort(v.begin(),v.end());
@@ -13,9 +14,11 @@ public:
                 v.erase(v.begin()+i);
                 v.insert(v.begin()+i,tmp);
                 // break;
-                i--;
+                i = -1;
             }
         }
+        sort(v.begin(),v.end());
+
         return v;
     }
 };
