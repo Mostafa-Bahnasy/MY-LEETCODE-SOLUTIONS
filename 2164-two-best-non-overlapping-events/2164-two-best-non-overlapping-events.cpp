@@ -10,17 +10,17 @@ public:
         }
         sort(left.begin(),left.end());
         
-        multiset<int>can;
+        int can = 0;
         multiset<pair<int,int>>open;
         int ans = 0;
         for(auto&[l,r,val]:left){
             while(open.size()&&open.begin()->first<l){
-                can.insert(open.begin()->second);
+                can= max(open.begin()->second,can);
                 open.erase(open.begin());
             }
-            int add = 0;
-            if(can.size())add = *prev(can.end());
-            ans = max(ans,val+add);
+            //int add = 0;
+            //if(can.size())add = *prev(can.end());
+            ans = max(ans,val+can);
             open.insert({r,val});
         }
         return ans;
