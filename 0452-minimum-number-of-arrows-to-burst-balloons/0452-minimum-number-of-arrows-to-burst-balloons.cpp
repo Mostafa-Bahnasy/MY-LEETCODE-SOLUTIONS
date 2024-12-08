@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& v) {
-        auto cmp = [&](vector<int> a,vector<int> b)->bool{
+        auto cmp = [&](vector<int> &a,vector<int> &b)->bool{
             return a[1]<b[1];
         };
 
