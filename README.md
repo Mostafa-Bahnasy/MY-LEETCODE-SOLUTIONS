@@ -13,12 +13,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0149-max-points-on-a-line) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Binary Search
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Matrix
 |  |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Simulation
 |  |
@@ -101,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
+| [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 ## Queue
 |  |
 | ------- |
@@ -113,4 +117,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0149-max-points-on-a-line) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 <!---LeetCode Topics End-->
