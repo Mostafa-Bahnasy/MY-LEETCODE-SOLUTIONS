@@ -9,6 +9,7 @@ public:
                 spaces.pop_back();
                 ret+=" ";
             }
+           
             ret+=s[i];
         }
 
