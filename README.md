@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0055-jump-game) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 ## Sorting
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0055-jump-game) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 ## Queue
