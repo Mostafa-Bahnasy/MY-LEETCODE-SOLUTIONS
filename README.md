@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
 | [0149-max-points-on-a-line](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0149-max-points-on-a-line) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [0228-summary-ranges](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0228-summary-ranges) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0209-minimum-size-subarray-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Divide and Conquer
 |  |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0209-minimum-size-subarray-sum) |
 | [3427-special-array-ii](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/3427-special-array-ii) |
 ## Counting
 |  |
