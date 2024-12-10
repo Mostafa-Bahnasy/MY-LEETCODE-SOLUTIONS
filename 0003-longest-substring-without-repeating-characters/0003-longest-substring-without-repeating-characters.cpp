@@ -1,26 +1,23 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int l = 1,r = 130;
-        int ans  = 0;
         int n = s.size();
-        while(l<=r){
-            int len = (l+r)/2;
-            bool can = false;
-            for(int i = 0;i+len-1<n;i++){
-                bitset<130>bt;
-                bool is = true;
-                for(int j = i;j<i+len;j++){
-                    if(bt[int(s[j])]){
-                        is = false;break;
-                    }
-                    bt[int(s[j])] = true;
-                }
-                if(is){can = true;break;}
-            }
+        int l = 0 ,r = 0;
+        bitset<130>bt;
+        int ans = 0;
+        while(r<n){
 
-            if(can) ans = len, l = len+1;
-            else r = len-1;
+            if(bt[int(s[r])]){
+                while(l<r&&s[l]!=s[r]){
+                    bt[int(s[l])] = false;
+                    l++;
+                }
+                bt[int(s[l])] = false;
+                l++;
+            }
+            bt[int(s[r])]= true;
+            ans = max(ans,r-l+1);
+            r++;
         }
         return ans;
     }
