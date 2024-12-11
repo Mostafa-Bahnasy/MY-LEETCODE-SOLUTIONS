@@ -3,10 +3,10 @@ public:
     int maximumBeauty(vector<int>& nums, int k) {
         int n = nums.size();
         int prf[300010] = {};
-        int shft = 1e5;
+        //int shft = 1e5;
         for(auto&i:nums){
-            prf[i+shft+k+1]--;
-            prf[i+shft-k]++;
+            prf[i+2*k+1]--;
+            prf[i]++;
         }
         int ans = max(1,prf[0]);
 
