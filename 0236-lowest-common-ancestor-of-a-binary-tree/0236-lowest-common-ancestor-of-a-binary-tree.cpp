@@ -15,7 +15,7 @@ public:
         auto dfs =[&](auto&self,TreeNode* node)->pair<bool,bool>{
             if(node == nullptr)return{0,0};
             pair<bool,bool>ret = {};
-            
+            if(!is)return{};
             auto left = self(self,node->left);
             auto right = self(self,node->right);
             ret.first = left.first or right.first;
