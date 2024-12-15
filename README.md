@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0556-next-greater-element-iii](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0556-next-greater-element-iii) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0049-group-anagrams](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0076-minimum-window-substring) |
+| [0556-next-greater-element-iii](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0556-next-greater-element-iii) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0050-powx-n) |
 | [0149-max-points-on-a-line](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0149-max-points-on-a-line) |
 | [0172-factorial-trailing-zeroes](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0172-factorial-trailing-zeroes) |
+| [0556-next-greater-element-iii](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0556-next-greater-element-iii) |
 ## Tree
 |  |
 | ------- |
