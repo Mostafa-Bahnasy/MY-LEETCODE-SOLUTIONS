@@ -34,7 +34,8 @@ public:
         };
 
         for(int i = 25;i>-1;i--)
-            solve(i);
+            if(cnt[i]>0)
+                solve(i);
 
         return s;
     }
