@@ -44,7 +44,7 @@ public:
             int mx_dia = -1;
             int far_node = -1;
             get_far(get_far,v,0,far_node,mx_dia);
-            mx_dia = -1;
+            // mx_dia = -1;
             // get_far(get_far,v,far_node,far_node,mx_dia);
             // cout<<"N: "<<far_node<<"\n";
             int d1 = get_dia(get_dia,v,far_node);
