@@ -9,8 +9,8 @@ public:
             if(idx==n){
                 return(need==0);
             }
-            int rem = suf[idx];
-            if(rem<abs(need))return 0;
+            // int rem = suf[idx];
+            // if(rem<abs(need))return 0;
 
             int ret = 0;
             ret += self(self,idx+1,need+nums[idx]);
