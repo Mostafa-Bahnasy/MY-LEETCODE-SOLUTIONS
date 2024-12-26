@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0274-h-index) |
 | [0377-combination-sum-iv](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0377-combination-sum-iv) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0494-target-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0780-max-chunks-to-make-sorted) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0377-combination-sum-iv](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0377-combination-sum-iv) |
+| [0494-target-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0494-target-sum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0954-maximum-sum-circular-subarray) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/2164-two-best-non-overlapping-events) |
 ## Queue
@@ -327,4 +329,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Mostafa-Bahnasy/MY-LEETCODE-SOLUTIONS/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
