@@ -38,6 +38,6 @@ public:
         };
 
 
-        return solve(solve,0,0)%mod;
+        return solve(solve,0,0);
     }
 };
