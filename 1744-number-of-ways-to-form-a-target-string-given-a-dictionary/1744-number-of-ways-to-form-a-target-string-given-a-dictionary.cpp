@@ -28,7 +28,9 @@ public:
             if(m-c<n-idx)return 0;
             auto &ret = dp[idx][c];
             if(ret!=-1)return ret;
-            ret = self(self,idx,c+1);
+            ret = 0;
+            if(!(m-(c+1)<n-idx))
+                ret = self(self,idx,c+1);
             if(col[c][target[idx]-'a']){
                 ret =  add(ret,mul(col[c][target[idx]-'a'],self(self,idx+1,c+1)));
             }
