@@ -12,7 +12,7 @@ public:
         }
 
         const int mod = 1000000007;
-        vector<vector<int>>dp(n+5,vector<int>(m+5,-1));
+        vector<vector<int>>dp(n,vector<int>(m,-1));
 
         auto add = [&](int a,int b)->int{
             a+=mod;
