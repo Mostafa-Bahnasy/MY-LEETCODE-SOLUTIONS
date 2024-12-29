@@ -3,7 +3,7 @@ public:
     int numWays(vector<string>& words, string target) {
         int n = target.size();
         int m = words[0].size();
-        vector<vector<long long >>col(m,vector<long long>(26));
+        vector<vector< int >>col(m,vector<int>(26));
         for(auto&s:words){
             for(int i  =0;i<m;i++){
                 col[i][s[i]-'a']++;
@@ -21,7 +21,7 @@ public:
             return ((a%mod)*(b%mod))%mod;
         };
 
-        auto solve = [&](auto&self,int idx,int c)->long long{
+        auto solve = [&](auto&self,int idx,int c)->int{
             if(idx==n)return 1;
             if(m-c<n-idx)return 0;
             auto &ret = dp[idx][c];
