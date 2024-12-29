@@ -4,11 +4,13 @@ public:
         int n = target.size();
         int m = words[0].size();
         vector<vector< int >>col(m,vector<int>(26));
+        //vector<vector<int>>nxt(m,vector<int>(26));
         for(auto&s:words){
             for(int i  =0;i<m;i++){
                 col[i][s[i]-'a']++;
             }
         }
+
         const int mod = 1000000007;
         vector<vector<int>>dp(n+5,vector<int>(m+5,-1));
 
@@ -17,8 +19,8 @@ public:
             b+=mod;
             return ((a%mod)+(b%mod))%mod;
         };
-        auto mul = [&](long long a,long long b)->int{
-            return ((a%mod)*(b%mod))%mod;
+        auto mul = [&](int a,int b)->int{
+            return (1LL*(a%mod)*(b%mod))%mod;
         };
 
         auto solve = [&](auto&self,int idx,int c)->int{
@@ -32,6 +34,7 @@ public:
             }
             return ret;
         };
+
 
         return solve(solve,0,0)%mod;
     }
