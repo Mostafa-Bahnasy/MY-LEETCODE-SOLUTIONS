@@ -10,9 +10,9 @@ public:
             }
         }
         const int mod = 1000000007;
-        vector<vector<long long>>dp(n+5,vector<long long>(m+5,-1));
+        vector<vector<int>>dp(n+5,vector<int>(m+5,-1));
 
-        auto add = [&](long long a,long long b)->long long{
+        auto add = [&](long long a,long long b)->int{
             a+=mod;
             b+=mod;
             return ((a%mod)+(b%mod))%mod;
