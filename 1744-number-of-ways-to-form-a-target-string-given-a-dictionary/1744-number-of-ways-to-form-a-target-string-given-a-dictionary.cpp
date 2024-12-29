@@ -23,7 +23,7 @@ public:
 
         auto solve = [&](auto&self,int idx,int c)->long long{
             if(idx==n)return 1;
-            if(c==m)return 0;
+            if(m-c<n-idx)return 0;
             auto &ret = dp[idx][c];
             if(ret!=-1)return ret;
             ret = self(self,idx,c+1);
