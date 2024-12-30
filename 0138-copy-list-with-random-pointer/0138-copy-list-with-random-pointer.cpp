@@ -20,6 +20,7 @@ public:
         Node * it = head;
         unordered_map<Node*,Node*>mp;
 
+
         while(it){
             mp[it] = new Node(it->val);
             it = it->next;
@@ -33,6 +34,7 @@ public:
 
             it = it->next;
         }
+        
         return mp[head];
     }
 };
