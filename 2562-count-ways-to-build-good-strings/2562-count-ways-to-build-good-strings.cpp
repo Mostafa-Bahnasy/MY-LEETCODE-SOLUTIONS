@@ -5,9 +5,9 @@ public:
         dp[0] = 1;
         const int mod = 1000000007;
         for(int i =1;i<=high;i++){
-            if(i-zero>=0)
+            if(i>=zero)
                 dp[i] = (dp[i]+dp[i-zero])%mod;
-            if(i-one>=0)
+            if(i>=one)
                 dp[i] = (dp[i]+dp[i-one])%mod;
             
         }
