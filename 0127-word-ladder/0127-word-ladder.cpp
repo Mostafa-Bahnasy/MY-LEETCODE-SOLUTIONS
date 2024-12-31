@@ -26,9 +26,9 @@ public:
         // queue<int>q;
 
         vector<int>dst(wordList.size()+5,-1);
-        dst[idx[beginWord]] = 1;
+        dst[0] = 1;
         queue<int>q;
-        q.push(idx[beginWord]);
+        q.push(0);
         while(q.size()){
             auto id = q.front();
             q.pop();
