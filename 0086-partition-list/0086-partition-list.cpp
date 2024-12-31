@@ -16,16 +16,15 @@ public:
         ListNode *high = new ListNode();
         auto low_head = low;
         auto high_head = high;
-        auto ptr = head;
-        while(ptr){
-            if(ptr->val<x){
-                low->next = ptr;
+        while(head){
+            if(head->val<x){
+                low->next = head;
                 low= low->next;
             }else{
-                high->next = ptr;
+                high->next = head;
                 high = high->next;
             }
-            ptr = ptr->next;
+            head = head->next;
         }
         
         high->next  = nullptr;
