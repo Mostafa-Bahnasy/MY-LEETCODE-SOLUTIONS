@@ -1,7 +1,7 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_map<string,set<string>>all;
+        unordered_map<string,unordered_set<string>>all;
         
         for(auto&s:wordList){
             auto ss = s;
