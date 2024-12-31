@@ -11,13 +11,13 @@ public:
             idx[wordList[i]] = i;
         }
         for(int i = 1;i<wordList.size()-1;i++){
-            auto ss = wordList[i];
+            auto id = idx[wordList[i]];
             auto s = wordList[i];
             
             for(int i= 0;i<s.size();i++){
                 char old = s[i];
                 s[i] = '#';
-                all[s].push_back(idx[ss]);
+                all[s].push_back(id);
                 s[i] = old;
             }
             // i++;
