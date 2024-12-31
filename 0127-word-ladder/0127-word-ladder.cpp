@@ -6,9 +6,10 @@ public:
         for(auto&s:wordList){
             auto ss = s;
             for(int i= 0;i<s.size();i++){
-                ss[i] = '#';
-                all[ss].insert(s);
-                ss[i] = s[i];
+                char old = s[i];
+                s[i] = '#';
+                all[s].insert(ss);
+                s[i] = old;
             }
         }
 
