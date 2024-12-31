@@ -1,7 +1,7 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_map<string,unordered_set<int>>all;
+        unordered_map<string,vector<int>>all;
         unordered_map<string,int>idx;
 
         wordList.push_back(endWord);
@@ -17,7 +17,7 @@ public:
             for(int i= 0;i<s.size();i++){
                 char old = s[i];
                 s[i] = '#';
-                all[s].insert(idx[ss]);
+                all[s].push_back(idx[ss]);
                 s[i] = old;
             }
             // i++;
@@ -25,7 +25,7 @@ public:
 
         // queue<int>q;
 
-        unordered_map<int,int>dst;
+        vector<int>dst(wordList.size()+5,-1);
         dst[idx[beginWord]] = 1;
         queue<int>q;
         q.push(idx[beginWord]);
@@ -43,7 +43,7 @@ public:
                 s[i] = '#';
 
                 for(auto&to:all[s]){
-                    if(dst.count(to))continue;
+                    if(dst[to]!=-1)continue;
                     dst[to] = d+1;
                     q.push(to);
                 }
