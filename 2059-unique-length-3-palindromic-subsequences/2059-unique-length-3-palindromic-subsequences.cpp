@@ -18,12 +18,12 @@ public:
             pos[s[i]-'a'].push_back(i);
         }
         int ans = 0;
-        for(int i = 0;i<26;i++){
+        for(int i = 0;i<26;++i){
             if(pos[i].size()<2)continue;
             int left = pos[i][0]+1;
             int right = pos[i].back()-1;
             if(left>right)continue;
-            for(int j = 0;j<26;j++){
+            for(int j = 0;j<26;++j){
                 auto it = lower_bound(pos[j].begin(),pos[j].end(),left);
                 if(it!=pos[j].end() and *it<=right){
                     ans++;
