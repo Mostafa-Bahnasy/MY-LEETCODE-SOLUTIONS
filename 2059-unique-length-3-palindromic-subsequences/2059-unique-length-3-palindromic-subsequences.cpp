@@ -24,8 +24,9 @@ public:
             int right = pos[i].back()-1;
             if(left>right)continue;
             for(int j = 0;j<26;++j){
-                auto it = lower_bound(pos[j].begin(),pos[j].end(),left);
-                if(it!=pos[j].end() and *it<=right){
+                auto &v = pos[j];
+                auto it = lower_bound(v.begin(),v.end(),left);
+                if(it!=v.end() and *it<=right){
                     ans++;
                 }
             }
