@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> minOperations(string box) {
         int n = box.size();
-        vector<int>prf(n),suf(n);
+        vector<int>prf(n);
         int c = 0;
         for(int i = 0;i<n;i++){
             if(i)
@@ -12,22 +12,17 @@ public:
             }
         }
         c = 0;
+        int suff = 0;
+        vector<int>ret(n);
         for(int i = n-1;i>-1;i--){
             if(i<n-1)
-                suf[i] = suf[i] + c+suf[i+1];
+                suff =c+suff;
             if(box[i]=='1'){
                 c++;
             }
-            // cout<<suf[i]<<"\n";
+            ret[i] = suff + prf[i];
         }
         
-        vector<int>ret(n);
-        for(int i  = 0;i<n;i++){
-            
-            ret[i] = suf[i] + prf[i];
-
-
-        }
 
         return ret;
     }
