@@ -30,7 +30,7 @@ public:
             for(int i = 0;i<26;i++){
                 if(cur[i]<cnt[i]){is = false;break;}
             }
-            if(is)ret.push_back(s);
+            if(is)ret.push_back(move(s));
         }
         return ret;
     }
