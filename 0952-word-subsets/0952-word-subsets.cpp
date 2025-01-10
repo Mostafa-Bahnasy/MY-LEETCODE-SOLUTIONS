@@ -3,7 +3,7 @@ public:
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
         vector<string>ret;
 
-        array<short, 26> cnt = {};
+        short cnt[26] = {};
 
         for(auto&s:words2){
             short cur[26] = {};
