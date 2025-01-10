@@ -1,5 +1,5 @@
 struct TinyInt {
-    unsigned int value :30 = 0; // 3 bits, can store values 0-7
+    unsigned int value :29 = 0; // 3 bits, can store values 0-7
 };
 
 
@@ -21,15 +21,15 @@ public:
             maxProfitUpToDifficulty[i].value = max(maxProfitUpToDifficulty[i].value, maxProfitUpToDifficulty[i - 1].value);
         }
 
-        TinyInt totalProfit;
+        unsigned int totalProfit =0;
         for (int ability : worker) {
             if (ability > maxDifficulty.value) {
-                totalProfit.value += maxProfitUpToDifficulty[maxDifficulty.value].value;
+                totalProfit += maxProfitUpToDifficulty[maxDifficulty.value].value;
             } else {
-                totalProfit.value += maxProfitUpToDifficulty[ability].value;
+                totalProfit += maxProfitUpToDifficulty[ability].value;
             }
         }
-        int ret = totalProfit.value;
+        int ret = totalProfit;
         return ret;
     }
 };
