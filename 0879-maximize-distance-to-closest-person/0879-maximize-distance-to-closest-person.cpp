@@ -1,5 +1,5 @@
 struct TinyInt {
-    unsigned int value :11  = 0; // 12 bits, can store values 0-7
+    unsigned int value :10  = 0; // 12 bits, can store values 0-7
 };
 
 
