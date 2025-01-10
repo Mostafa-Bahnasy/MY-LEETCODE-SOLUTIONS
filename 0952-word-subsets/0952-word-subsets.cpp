@@ -15,8 +15,8 @@ public:
             }
         }
 
-        auto get =[&](string &s)->vector<short>{
-            vector<short>ret(26);
+        auto get =[&](string &s)->array<short, 26> {
+            std::array<short, 26> ret = {};
             for(auto&i:s){
                 ret[i-'a']++;
             }
@@ -27,7 +27,7 @@ public:
             auto cur = get(s);
 
             bool is = true;
-            for(int i = 0;i<26;i++){
+            for(int i = 0;i<26;++i){
                 if(cur[i]<cnt[i]){is = false;break;}
             }
             if(is)ret.push_back(move(s));
