@@ -3,10 +3,10 @@ public:
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
         vector<string>ret;
 
-        int cnt[26] = {};
+        short cnt[26] = {};
 
         for(auto&s:words2){
-            int cur[26] = {};
+            short cur[26] = {};
             for(auto ch:s){
                 cur[ch-'a']++;
             }
@@ -15,8 +15,8 @@ public:
             }
         }
 
-        auto get =[&](string &s)->vector<int>{
-            vector<int>ret(26);
+        auto get =[&](string &s)->vector<short>{
+            vector<short>ret(26);
             for(auto&i:s){
                 ret[i-'a']++;
             }
