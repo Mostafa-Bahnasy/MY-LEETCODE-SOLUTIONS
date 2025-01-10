@@ -28,7 +28,7 @@ public:
 
             bool is = true;
             for(int i = 0;i<26;i++){
-                if(cur[i]<cnt[i])is = false;
+                if(cur[i]<cnt[i]){is = false;break;}
             }
             if(is)ret.push_back(s);
         }
