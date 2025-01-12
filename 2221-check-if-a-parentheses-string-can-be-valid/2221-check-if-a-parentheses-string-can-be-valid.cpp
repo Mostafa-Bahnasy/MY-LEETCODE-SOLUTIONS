@@ -5,7 +5,7 @@ public:
         int open = 0;
         int can = 0;
 
-        for(int i = 0;i<s.size();i++){
+        for(int i = 0;i<s.size();++i){
             if(locked[i]=='1'){
                 if(s[i]=='(')open++;
                 else{
@@ -16,6 +16,7 @@ public:
                     }else return false;
                 }
             }else{
+                
                 if(open>0){
                     open--;
                     can++;
