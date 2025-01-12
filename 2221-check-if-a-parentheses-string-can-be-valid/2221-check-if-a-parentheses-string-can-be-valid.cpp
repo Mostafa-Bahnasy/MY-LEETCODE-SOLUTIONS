@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canBeValid(string s, string locked) {
-        
+        if(s.size()%2==1)return false;
         int open = 0;
         int can = 0;
 
